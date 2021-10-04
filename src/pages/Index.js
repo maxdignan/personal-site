@@ -23,7 +23,7 @@ const Index = () => (
         <Link to="/projects">projects</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
-      <p> Like the site? It happens to be <a href="https://github.com/mldangelo/personal-site">open source</a>.</p>
+      <p> Like the site? It happens to be <a href="https://github.com/maxdignan/personal-site">open source</a>.</p>
     </article>
   </Main>
 );

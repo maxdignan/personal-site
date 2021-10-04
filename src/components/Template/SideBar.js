@@ -9,7 +9,7 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/me.png`} alt="" />
       </Link>
       <header>
         <h2>Max Dignan</h2>
@@ -18,7 +18,7 @@ const SideBar = () => (
     </section>
 
     <section className="blurb">
-      <h2>About</h2>
+      {/* <h2>About</h2>
       <p>Hi, I&apos;m Max. I like building things.
         I am a <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC Alumni, and
         the co-founder and CTO of <a href="https://arthena.com">Arthena</a>. Before Arthena I was
@@ -27,7 +27,7 @@ const SideBar = () => (
         , <a href="https://planetaryresources.com">Planetary Resources</a>
         , <a href="https://facebook.com">Facebook</a>
         , and <a href="https://seds.org">SEDS</a>.
-      </p>
+      </p> */}
       <ul className="actions">
         <li>
           {!window.location.pathname.includes('/resume') ? <Link to="/resume" className="button">Learn More</Link> : <Link to="/about" className="button">About Me</Link>}
